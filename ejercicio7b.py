@@ -10,7 +10,7 @@ while hambre < 85:
         precio = precio * 1.2
         total += precio
     else:
-        total += precio
+        total = precio
     hambre = hambre + edad
 
 print(edad)
