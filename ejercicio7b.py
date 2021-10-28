@@ -8,7 +8,7 @@ total = 0
 while hambre < 85:
     if hambre > edad:
         precio = precio * 1.2
-        total = total + precio
+        total += precio
     else:
         total += precio
     hambre = hambre + edad
