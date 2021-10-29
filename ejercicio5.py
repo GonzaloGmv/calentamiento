@@ -1,17 +1,16 @@
 dinero = 2000
 edad = 19
-nHelados = 1
-hambre = edad * nHelados
-precioI = 100
+hambre = edad
+precio = 100
+total = 0
 
-if hambre < 85:
-    nHelados = int(85 / edad)
+while hambre < 85:
+    if hambre > edad:
+        precio = precio * 1.2
+        total += precio
+    else:
+        total = precio
+    hambre = hambre + edad
 
-precio1 = precioI
-precio2 = 1.2 * precio1
-precio3 = 1.2 * precio2
-precio4 = 1.2 * precio3
-precioT = precio1 + precio2 + precio3 + precio4
-
-print("Número de helados: ", nHelados)
-print("Precio ", precioT)
+print("Edad: ", edad)
+print("Precio final: ", total)
