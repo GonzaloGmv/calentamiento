@@ -13,5 +13,5 @@ while hambre < 85:
         total = precio
     hambre = hambre + edad
 
-print(edad)
-print(total)
+print("Edad: ", edad)
+print("Precio final: ", total)

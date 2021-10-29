@@ -12,4 +12,6 @@ precio2 = 1.2 * precio1
 precio3 = 1.2 * precio2
 precio4 = 1.2 * precio3
 precioT = precio1 + precio2 + precio3 + precio4
-print(precioT)
+
+print("Número de helados: ", nHelados)
+print("Precio ", precioT)
